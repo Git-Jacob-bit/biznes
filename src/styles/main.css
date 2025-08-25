@@ -94,8 +94,6 @@ body {
 
 /* === Dlaczego my === */
 .why-us li::before {
-  content: "✔";
-  color: green;
   margin-right: 0.5rem;
   transform: scale(0.9);
   display: inline-block;
