@@ -12,6 +12,14 @@ body {
   line-height: 1.6;
 }
 
+.tel {
+  display: block;
+  text-align: center; 
+  font-size: 28px; 
+  font-family: Arial, sans-serif;
+   color: blue;
+}
+
 /* === Containers === */
 .container {
   max-width: 1100px;
