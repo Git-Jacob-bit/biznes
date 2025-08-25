@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domowa Sieć | qb.net</title>
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <link rel="icon" type="image/x-icon" href="/ikona_firmy.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="opacity: 0">
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="/index.html" class="logo">qb.net</a>
+        <nav class="nav-links">
+          <a href="/index.html">Start</a>
+          <a href="/siecdomowa.html">Sieć domowa</a>
+          <a href="/galeria.html">Galeria</a>
+          <a href="/index.html#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <header class="hero fade-in-on-load">
+      <div class="container">
+        <h1>Lepszy internet.</h1>
+        <p>
+          Zapewniam kompleksowe rozwiązania dla domowych sieci internetowych.
+        </p>
+        <a href="#kontakt" class="button">Umów konsultację</a>
+      </div>
+    </header>
+
+    <section class="services container">
+      <h2>Moje usługi</h2>
+      <div class="service-grid">
+        <a href="/siecdomowa.html" class="service-card">
+          <h3>Sieć domowa</h3>
+          <p>
+            Optymalizacja sieci, Mesh, wzmacniacze, konfiguracja routerów i
+            zarządzanie pasmem.
+          </p>
+        </a>
+        <!--<a href="/smarthome.html" class="service-card">
+        <h3>Smart Home bez remontu</h3>
+        <p>Instalacja inteligentnych urządzeń (Aqara, Tuya) i automatyzacja – bez ingerencji w ściany.</p>
+      </a>-->
+      </div>
+    </section>
+
+    <section class="why-us box-section fade-in-on-scroll container">
+      <h2>Dlaczego warto?</h2>
+      <ul>
+        <li>
+          Bezproblemowa instalacja w domu – bez wiercenia i ingerencji w
+          instalacje elektryczne.
+        </li>
+        <li>
+          Optymalizacja Wi-Fi w każdym pomieszczeniu – silny sygnał tam, gdzie
+          naprawdę go potrzebujesz.
+        </li>
+        <li>
+          Pełne wsparcie i konfiguracja – doradzamy, konfigurujemy i testujemy
+          sieć, żeby działała idealnie.
+        </li>
+      </ul>
+    </section>
+
+    <section class="about fade-in-on-scroll container">
+      <h2>O mnie</h2>
+      <p>
+        Nazywam się Jakub i studiuję teleinformatykę na Politechnice
+        Wrocławskiej. Od kilku lat interesuję się technologią sieciową – zarówno
+        od strony teoretycznej, jak i praktycznej.<br /><br />
+        Pomagam osobom, które chcą mieć stabilny i szybki internet w całym domu,
+        bez martwienia się o zacinające się Wi-Fi czy martwe strefy sygnału.<br /><br />
+        Wiem, jak frustrujące potrafi być słabe połączenie lub zbyt
+        skomplikowana konfiguracja routera – dlatego oferuję konkretne,
+        sprawdzone rozwiązania, które działają w codziennym użytkowaniu.<br /><br />
+        Stawiam na prostotę, wygodę i uczciwe podejście – doradzam dokładnie
+        tak, jak sam chciałbym być obsłużony.
+      </p>
+    </section>
+
+    <section id="kontakt" class="container box-section fade-in-on-scroll">
+      <h2>Skontaktuj się</h2>
+
+      <p style="margin-bottom: 1.5rem">
+        Masz pytanie, chcesz zarezerwować termin lub po prostu potrzebujesz
+        pomocy z siecią? Wypełnij formularz — odpowiem
+        najszybciej jak się da.
+      </p>
+
+      <form id="contact-form" class="contact-form">
+        <input type="text" name="name" placeholder="Imię i nazwisko" required />
+        <input type="email" name="email" placeholder="Adres e-mail" required />
+        <textarea
+          name="message"
+          placeholder="W czym mogę pomóc?"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit">Wyślij wiadomość</button>
+      </form>
+
+      <div id="form-status" style="text-align: center; margin-top: 1rem"></div>
+
+      <h2> ... lub po prostu zadzwoń</h2>
+      <h3 style="text-align: center;">+48 732 040 365</h3>
+    </section>
+
+    <footer class="footer container">
+      <p>&copy; 2025 qb.net – Domowa sieć</p>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
