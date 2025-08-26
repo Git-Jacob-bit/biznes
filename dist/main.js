@@ -1,4 +1,3 @@
-import './main.css';
 window.addEventListener("DOMContentLoaded", () => {
     document.body.style.opacity = "1";
     document.body.classList.add("page-enter");
